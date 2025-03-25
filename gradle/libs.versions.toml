@@ -1,0 +1,55 @@
+[versions]
+agp = "8.9.0"
+androidxRecyclerview = "1.3.1"
+appcompatVersion = "1.6.1"
+converterGson = "2.9.0"
+coreKtx = "1.15.0"
+gson = "2.12.1"
+gsonVersion = "2.10.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+lifecycleLivedata = "2.6.1"
+lifecycleViewmodel = "2.8.7"
+lifecycleViewmodelVersion = "2.6.1"
+material = "1.12.0"
+constraintlayout = "2.2.1"
+navigationFragment = "2.8.9"
+navigationUi = "2.8.9"
+recyclerview = "1.4.0"
+recyclerviewV7 = "28.0.0"
+recyclerviewVersion = "1.3.2"
+retrofit = "2.11.0"
+retrofitVersion = "2.9.0"
+
+[libraries]
+appcompat-v161 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+converter-gson-v290 = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+gson-v2101 = { module = "com.google.code.gson:gson", version.ref = "gsonVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+lifecycle-livedata = { module = "androidx.lifecycle:lifecycle-livedata", version.ref = "lifecycleViewmodel" }
+lifecycle-livedata-v261 = { module = "androidx.lifecycle:lifecycle-livedata", version.ref = "lifecycleLivedata" }
+lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "lifecycleViewmodel" }
+lifecycle-viewmodel-v261 = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "lifecycleViewmodelVersion" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+recyclerview-v131 = { module = "androidx.recyclerview:recyclerview", version.ref = "androidxRecyclerview" }
+recyclerview-v132 = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerviewVersion" }
+recyclerview-v7 = { module = "com.android.support:recyclerview-v7", version.ref = "recyclerviewV7" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-v290 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofitVersion" }
+support-compat = { module = "com.android.support:support-compat", version.ref = "recyclerviewV7" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
